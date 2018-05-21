@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 // Connect to mongodb database
 
 var mongoose = require('mongoose');
-var uri= "mongodb://localhost:27017/my-apm-database";
+var uri= "mongodb://localhost:27017/ProductDB";
 mongoose.connect(uri);
 
 

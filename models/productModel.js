@@ -12,4 +12,4 @@ var productSchema = new Schema({
 	'imageUrl' : String
 });
 
-module.exports = mongoose.model('product', productSchema);
+module.exports = mongoose.model('products', productSchema);
